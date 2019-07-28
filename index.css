@@ -1,0 +1,88 @@
+.container {
+    background: white;
+    border-radius: 20px;
+    width: 450px;
+    box-shadow: 5px 5px 20px 0 #888;
+    padding: 2rem;
+    margin: 2rem auto;
+
+}
+
+body {
+    background: #f0f0f0;
+    height: 100vh;
+}
+
+#notFound {
+    display: none;
+    background: lightcoral;
+    padding: 1rem;
+    margin: 10px auto;
+    border: 2px solid darkred;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+.userResults {
+    display: none;
+}
+
+.userPic img {
+    width: 80px;
+    height: auto;
+}
+
+.singleRepoInfo a {
+    text-decoration: none;
+    color: black;
+}
+.singleRepoInfo a:hover{
+    text-decoration-line: underline;
+
+}
+
+.singleRepoInfo:hover {
+    /* font-weight: bold; */
+    background: gainsboro;
+}
+
+#searchInput {
+    padding: 5px;
+    text-align: center;
+    /* border-radius: 5px; */
+    border: none;
+
+    border: 2px solid gainsboro;
+    margin: 0 15px 0 15px;
+    /* box-shadow: 0 0 10px 10px lightgray inset; */
+    -moz-outline: 0 none;
+    outline: 0 none;
+}
+
+#searchButton {
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+
+    border: 2px solid gainsboro;
+    margin: 0 15px 0 15px;
+    background-color: white;
+    transition-duration: 0.2s;
+    /* box-shadow: 0px 5px 0px lightgrey; */
+    /* box-shadow: 0 0 10px 10px lightgray inset; */
+    -moz-outline: 0 none;
+    outline: 0 none;
+}
+
+#searchButton:hover {
+    background-color: gainsboro;
+
+    /* box-shadow: 0 0 10px 10px lightgray inset; */
+}
+
+#userLogin {
+    font-style: italic;
+    color: grey;
+}
